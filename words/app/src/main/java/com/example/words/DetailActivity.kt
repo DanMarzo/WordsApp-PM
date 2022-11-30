@@ -22,7 +22,6 @@ class DetailActivity : AppCompatActivity() {
 
         val letterId = intent?.extras?.getString("letter").toString()
 
-
         val reciclerView = binding.recyclerView
         reciclerView.layoutManager = LinearLayoutManager(this)
         reciclerView.adapter = WordAdapter(letterId,this)

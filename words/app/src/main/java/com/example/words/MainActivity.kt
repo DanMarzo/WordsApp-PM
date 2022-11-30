@@ -5,9 +5,10 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView
 import com.example.words.databinding.ActivityMainBinding
+import com.example.words.LetterAdapter
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var recyclerView: RecyclerView;
+    private lateinit var recyclerView: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
